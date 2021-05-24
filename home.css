@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.bgimg{
+background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url('4.jpg');
+background-size: 100% 110%;
+width: 100%;
+height: 100vh;
+z-index: -1;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0,0,0,0.5);
+}
+.leftmenu{
+    width: 25%;
+    line-height: 80px;
+    float: left;
+}
+h4{
+    padding-left: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rightmenu{
+    width: 75%;
+    height: 180px;
+    float: right;
+
+}
+.rightmenu ul{
+    margin-left: 600px;
+}
+.rightmenu ul li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+    color:white;
+    padding: 15px;
+    font-size: 15px;
+    list-style: none;
+    font-weight: bold;
+    line-height: 80px;
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+.rightmenu ul li a{
+    color: WHITE;
+    text-decoration: none;
+}
+.rightmenu ul li a:hover{
+    color: skyblue;
+}
+.text{
+    text-align: center;
+    margin-top: 185px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text h1{
+    font-size:70px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.doc{
+    size: 15px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+    line-height: 40px;
+    text-transform: uppercase;
+    width: 300px;
+    margin-top: 100px;
+    border: 3px solid white;
+    margin-bottom: 135px;
+
+}
+.adm{
+    size: 15px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+    line-height: 40px;
+    text-transform: uppercase;
+    width: 300px;
+    margin-top: 100px;
+    border: 3px solid white;
+}
+.pat{
+    size: 15px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+    line-height: 40px;
+    text-transform: uppercase;
+    width: 300px;
+    margin-top: 100px;
+    border: 3px solid white;
+}
+.pat:hover{
+    background-color: skyblue;
+    border-color: skyblue;
+    color: black;
+}
+.doc:hover{
+    background-color: skyblue;
+    border-color: skyblue;
+    color: black;
+}
+.adm:hover{
+    background-color: skyblue;
+    border-color: skyblue;
+    color: black;
+}
+
+#section2{
+    height: 90%;
+    width: 100%;
+    background-image: /*linear-gradient(to right,rgba(0,0,0,0.5),black)*/linear-gradient(to bottom,black,rgba(0,0,0,0.75));
+    color: white;
+    background-size: 100% 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    padding: 0%;
+    
+}
+#section2 h1{
+    margin-bottom: 20px;
+    color: bisque;
+    padding:  20px;
+    margin-right: 20px;
+    font-size: 80px;
+    padding-left: 30px;
+}
+#section2 p{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    
+}
+#section3{
+    height: 60%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.90);
+    color: white;
+    background-size: 100% 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    padding: 0%;
+    
+}
+#section3 h1{
+    margin-bottom: 20px;
+    color: bisque;
+    padding:  20px;
+    margin-right: 20px;
+    font-size: 80px;
+    padding-left: 30px;
+}
+
+.rightbottom{
+    width: 50%;
+    float: right;
+    background-color: black;
+    text-align: center;
+    height: 100%;
+}
+.rightbottom input{
+    width: 20%;
+    size: 20px;
+    
+}
+
+.rightbottom form{
+    padding-bottom:20px ;
+}
+.rightbottom h1{
+    padding-bottom:20px ;
+}
+.leftbottom{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.rightbottom button{
+    width: 90px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    text-size-adjust: 30px;
+
+}
+.rightbottom button:hover{
+    background-color: skyblue;
+    border-color: skyblue;
+
+}
+
+#what{
+    text-align: center;
+    width: 100px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    
+}
+#what:hover{
+    background-color: skyblue;
+    color: white;
+    border-color: skyblue;
+}
+/*#what1{
+    text-align: center;
+    width: 100px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    
+}
+#what1:hover{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}*/
